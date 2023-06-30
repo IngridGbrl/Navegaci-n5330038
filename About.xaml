@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navegación5330038.About"
+             Title="About">
+    <VerticalStackLayout   Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+        <Label 
+            Text="Alumna :"
+            VerticalOptions="Center" FontAttributes="Bold"
+            HorizontalOptions="Center"  TextColor="Violet" FontSize="20"/>
+        <Label 
+            Text="Ingrid Jacqueline Gabriel Zepeda"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  TextColor="AliceBlue" FontSize="20"/>
+
+        <Label 
+            Text="Company :" FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  TextColor="Violet" FontSize="20"/>
+        <Label 
+            Text="SANDBOX"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  TextColor="AliceBlue" FontSize="20"/>
+    </VerticalStackLayout>
+</ContentPage>
